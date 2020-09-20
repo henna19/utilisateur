@@ -1,0 +1,8 @@
+[Unit]
+Description=Creation of Users
+
+[Service]
+ExecStart=/home/henna/bin/check.sh
+
+[Install]
+WantedBy=multi-user.target
